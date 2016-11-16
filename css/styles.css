@@ -102,6 +102,12 @@
   left: 15%;
 }
 
+.seal {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
+
 /*Descriptions*/
 .description {
   display: none;
