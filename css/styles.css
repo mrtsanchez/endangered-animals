@@ -96,6 +96,12 @@
   left: 55%;
 }
 
+.lizard {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
 /*Descriptions*/
 .description {
   display: none;
