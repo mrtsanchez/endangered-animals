@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+ body {
+   margin-top: 200px;
+   margin-left: 0;
+   margin-right: 0;
+   font-family: 'lato', sans-serif;
+ }
+
+ .container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+ .map {
+   background-image: url(../img/world.png);
+   background-repeat: no-repeat;
+   width: 2356px;
+   height: 1094px;
+   margin: auto;
+   position: relative;
+ }
+
+/*Helper Classes*/
+
+ .title {
+   font-family: 'Fjalla One', sans-serif;
+ }
+
+.title-blue {
+    font-family: 'Fjalla One', sans-serif;
+    color: #009DDC;
+}
+
+ .cursive {
+   font-style: italic;
+ }
+
+ .rounded-image {
+   border-radius: 50%;
+   border: 0px solid;
+   max-width: 230px;
+ }
+
+/*NavBar*/
+
+.nav-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  min-height: 150px;
+  background-color: #264653;
+  color: #EAF2E3;
+  padding: 50px;
+}
+
+/*Animals*/
+
+.bald {
+  /*z-index: 1;*/
+  position: absolute;
+  top: 55%;
+  left: 20%;
+}
+
+.beaver {
+  /*z-index: 1;*/
+  position: absolute;
+  top: 18%;
+  left: 70%;
+}
+
+.fish {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+}
+
+.olm {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+
+.aye-aye {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+}
+
+/*Descriptions*/
+.description {
+  display: none;
+  border: 2px solid;
+  border-color: #43AA8B;
+  padding: 20px;
+  background-color: #EAF2E3;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+div div:hover > .description {
+  display: block;
+}
